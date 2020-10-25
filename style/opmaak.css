@@ -1,0 +1,117 @@
+body {
+  overflow-x:hidden;
+  overflow-y: hidden;
+  padding: 30px;
+  margin-bottom: 0px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/be/KeizersgrachtReguliersgrachtAmsterdam.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1{
+  color: red;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: red;
+ }
+.active {
+  background-color: red;
+}
+
+
+li:last-child {
+  border-right: none;
+}
+nav img {
+    height: 50px;
+}
+nav {
+  font-family: Impact;
+}
+nav {
+    background-color: white;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+header {
+      background-color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+}
+.img {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+section {
+  padding-top: 160px;
+  background-color: rgba(255,255,255,0)
+
+
+}
+h2{
+  color: red;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+.full-width {
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    background-color: rgba(255,255,255,0.7)
+}
+.footer {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: red;
+  text-align: center;
+}
+h4 {
+  color: black;
+  font-size: 30px;
+}
+.list {
+    color: black;
+    padding: 40px 50px;
+    text-decoration: none;
+}
+.img2 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
